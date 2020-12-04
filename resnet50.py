@@ -61,7 +61,7 @@ class ResNet50(tf.keras.Model):
 
     def __init__(self, parameters):
 
-        super(ResNetII, self).__init__()
+        super(ResNet50, self).__init__()
 
         self.conv1 = layers.Conv2D(filters = 64, kernel_size = (7,7), strides = 2, padding = "same")
         self.bn1 = layers.BatchNormalization()
